@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Genos', sans-serif;
+}
+body{
+    background-color: #151515;
+}
+header{
+    background-color:#292929;
+    color: orange;
+    text-align: center;
+   
+}
+
+nav{
+    background-color: #1c1c1c;
+}
+nav div{
+    display: flex;
+}
+
+
+
+.material-symbols-outlined{
+    color: white;
+    font-size: 26px;
+}
+.material-symbols-outlined:hover{
+
+    color:orange;
+}
+
+h1.titulo{
+color: #fc4b08;
+
+text-align: center;
+
+}
+
+
+button.iniciar{
+
+    background: #fc4b08;
+    color: white;
+}
+button.iniciar:hover{
+    color: #fc4b08;
+    background: #3f3f3f;
+}
+
+
+
+
+/*  M  E N U U   */
+
+
+nav div.menu{
+    display: flex;
+    justify-content: start;
+    order:1;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+ul.dropdown-menu{
+  
+    background-color: #292929;
+
+}
+li a.dropdown-item{
+    color: white;
+}
+
+
+
+/* - - - - -   */
+
+/*-----  L O G O    D E    A R G E N T I N A   P R O G R A M A ------*/
+nav div.logo{
+    display: flex;
+    justify-content: center;
+    order:2;
+
+}
+img.argenitna{
+    display: flex;
+   
+
+}
+
+
+
+
+
+/* -  - - - -  -  -  - - - - - - - - - - - - - - - - - - */
+
+
+
+/*---BU S C A D O R------*/
+nav div.buscador{
+    display: flex;
+    justify-content:end;
+    order:3;
+}
+
+div form{
+width: 100%;
+
+}
+div input.buscador2{
+    display: flex;
+    width: 100%;   
+min-width: 80%;
+
+
+}
+.form-control::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+
+button.edit{
+    font-size: 18px;
+display: flex;
+background:#fc4b08;
+color: white;
+
+}
+button.edit:hover{
+    font-size: 18px;
+    transition: 3ms;
+    background-color:#292929;
+    color: #fc4b08;
+}
+/**~~~~~~~~*/
+
+nav div.Usuario{
+    display:flex;
+    justify-content: end;
+    order:4;
+
+}
+
+
+ div.modal-body{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+h5.modal-title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+div.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+    /*---EDICION : C O R R E O ----*/
+ 
+ input.correo{
+    display: flex;
+    width: 90%;
+ }
+ div.correo2{
+display: flex;
+justify-content: end;
+ }
+/*------------------------*/
+
+/*EDICION:  C O N T R A------*/
+
+input.contra1{
+    display: flex;
+    width: 90%;
+}
+div.contra2{
+    display: flex;
+    justify-content: end;
+}
+/*-------------------  */
+
+p.arg{
+    color:#0cb7f2;
+    text-align: center;
+    
+}
+/*------ CARRUSEL-----*/
+
+img.algo{
+max-height: 40rem;
+
+}
+
+section.todoh{
+    display: flex;
+    margin-top: 20px;
+   margin-bottom: 20px;
+
+   
+}
+section.todoc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section.todoj{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h2.inicio{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p.ph{
+    color: white;
+}
+
+section.todoh:hover{
+    border-bottom: solid;
+    border-color: #fc4b08;
+    border-radius: 15px;
+    background-color: #3f3f3f;  
+}
+section.todoj:hover{
+    border-radius: 15px;
+    background-color: #3f3f3f;
+    border-bottom: solid;
+    border-color: #fc4b08;
+}
+
+section.todoc:hover{
+    border-bottom: solid;
+    border-color: #fc4b08;
+    border-radius: 15px;
+    background-color: #3f3f3f;
+}
+footer{
+    background: #292929;
+    color: #fc4b08;
+}
+p.Contactos{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+div.facebook{
+    display: flex;
+    justify-content: center;
+}
+i.fa-facebook:hover{
+    border-bottom: solid;
+    border-color: #0cb7f2;
+    background: #3f3f3f;
+    border-radius: 10px;
+}
+i.fa-facebook{
+    font-size: 20px;
+    color: #0cb7f2;
+}
+
+
+div.cursos{
+    background-color: #3f3f3f;
+}
+h2.cursos{
+    color: white;
+}
+   
+
+
+
+
+
+
+
+
+/* - - - - - - - - - - - -  - - - - - */
+@media screen and ( max-width: 950px) {
+nav div.buscador{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+     order:4;
+     flex: 100%;
+     justify-content: center;
+
+    }
+    div form{
+        width: 90%;}
+       
+    div input.buscador2{
+       display: flex;
+       width: 100%;
+    }
+    button.edit{
+        background-color:#8749bc;
+        color: white;
+    }
+    button.edit:hover{
+        color:#1b1145;
+        background-color:#9d65cd;
+    }
+
+nav div.Usuario{
+        
+        order:3;
+    }
+    button.iniciar{
+
+        background: #8749bc;
+        color: white;
+    }
+    button.iniciar:hover{
+        color:black;
+        background: #9d65cd;
+    }
+    
+
+
+  div.logo{ 
+    
+    display: flex;
+    justify-content: center;
+
+  }
+  img.logo1{
+    display: flex;
+justify-content: center;
+    width: 250px;
+   
+  }
+
+  .material-symbols-outlined{
+  font-size: 30px;
+  color: white;
+}
+.material-symbols-outlined:hover{
+color: #8749bc;
+
+border-radius: 5px;
+}
+header{
+    background-color: #1b1145;
+    color: #8749bc;
+
+}
+footer{
+    background-color: #1b1145;  
+    color: #8749bc;
+}
+nav{
+    background-color:#100B1F;
+}
+
+h1.titulo{
+    color: #8749bc;
+    
+    text-align: center;
+    
+    }
+    section.todoh:hover{
+        border-bottom: solid;
+        border-color: #8749bc;
+        border-radius: 15px;
+        background-color: #3f3f3f;  
+    }
+    section.todoj:hover{
+        border-radius: 15px;
+        background-color: #3f3f3f;
+        border-bottom: solid;
+        border-color: #8749bc;
+    }
+    
+    section.todoc:hover{
+        border-bottom: solid;
+        border-color: #8749bc;
+        border-radius: 15px;
+        background-color: #3f3f3f;
+    }
+
+
+
+}
+@media screen and (max-width:500px) {
+   
+    img.logo1{
+        width: 220px;
+    }
+    button.iniciar{
+
+        background: #fce408;
+        color: #3f3f3f;
+    }
+    button.iniciar:hover{
+
+        background: #3f3f3f;
+        color: #fce408;
+    }
+    
+    
+    div form{
+        display: flex;
+        justify-content: center;
+        width: 75%;}
+       
+    div input.buscador2{
+       display: flex;
+       width: 100%;
+    }
+    button.edit{
+        display: none;
+       font-size: 16px;
+    display: flex;
+    background:#fce408;
+    color: #292929;
+    
+    }
+    .material-symbols-outlined{
+        font-size: 25px;
+        color: white;
+      }
+      header{
+        color: #fce408;
+        background-color: black;
+      }
+      footer{
+        color: #fce408;
+        background-color: black;
+      }
+      nav{
+        background:rgba(55, 55, 56, 0.361);
+      }
+      .material-symbols-outlined:hover{
+        color: #fce408;}
+        button.edit:hover{
+            font-size: 18px;
+            transition: 3ms;
+            background-color:#292929;
+            color:#fce408;
+        }
+
+        h1.titulo{
+            color:#fce408;
+            
+            text-align: center;
+            
+            }
+
+
+
+            div.tituloh{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+           
+            div.iconoc{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            div.iconoj{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+            p.ph{
+               display: none;
+            }
+
+            p.pj{
+                display: none;
+            }
+            p.pc{
+                display: none;
+            }
+            h2.inicio{
+               font-size: 35px; 
+                
+            }
+            h2.medio{
+               font-size: 35px;
+
+            }
+            h2.final{
+               font-size: 30px;
+
+            }
+            
+
+            section.todoh:hover{
+                border-bottom: solid;
+                border-color: #fce408;
+                border-radius: 15px;
+                background-color: #3f3f3f;  
+            }
+            section.todoj:hover{
+                border-radius: 15px;
+                background-color: #3f3f3f;
+                border-bottom: solid;
+                border-color: #fce408;
+            }
+            
+            section.todoc:hover{
+                border-bottom: solid;
+                border-color: #fce408;
+                border-radius: 15px;
+                background-color: #3f3f3f;
+            }
+}
+    
